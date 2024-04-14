@@ -1,3 +1,16 @@
+"""
+Script to run the SWE agent on GitHub issues.
+
+Usage:
+
+python run.py <ScriptArguments>
+
+Use --help to see available options:
+
+python run.py --help
+
+"""
+
 import json
 import logging
 import os
