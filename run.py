@@ -176,8 +176,6 @@ def should_open_pr(args: ScriptArguments, info: Dict[str, Any], *, token: str=""
     if issue.state != "open":
         logger.info(f"Issue is not open (state={issue.state}. Skipping PR creation.")
         return False
-
-        return False
     if issue.locked:
         logger.info("Issue is locked. Skipping PR creation.")
         return False
